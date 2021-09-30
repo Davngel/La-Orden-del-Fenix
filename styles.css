@@ -8,14 +8,16 @@ body, html {
 }
 body {
   background-color: black;
-  display: flex;
+  /*display: flex;*/
   align-items: center;
   justify-content: center;
 }
 .logo {
+  display: block;
+  margin: 0 auto;
   height: 230px;
-  width: auto;
-  max-width: 90%;
+  /* width: auto; */
+  /* max-width: 90%;*/
 }
 
 h1 {
@@ -23,6 +25,6 @@ h1 {
   text-align: center;
 }
 h3{
-  color: white;
+  color: orange;
   text-align: right;
 }
