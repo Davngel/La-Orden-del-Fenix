@@ -7,8 +7,9 @@ body, html {
   min-height: 100vh;
 }
 body {
-  background-color: black;
+  /*background-color:orange;
   /*display: flex;*/
+  background-image: url("https://www.gannett-cdn.com/-mm-/3f6e86d405145b3129ec4bf3d42891afa6b4aaaf/c=0-590-5753-3840/local/-/media/2018/04/27/DetroitFreeP/DetroitFreePress/636604223792223364-GettyImages-853959940.jpg?width=1320&height=746&fit=crop&format=pjpg&auto=webp");
   align-items: center;
   justify-content: center;
 }
@@ -21,10 +22,36 @@ body {
 }
 
 h1 {
-  color: orange;
+  color:orange;
+  font-weight: 900;
+  font-style: italic;
   text-align: center;
 }
 h3{
   color: orange;
+  font-weight: 500;
   text-align: center;
+}
+
+h3 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  75% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 50%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
