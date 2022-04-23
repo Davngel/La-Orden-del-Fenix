@@ -4,56 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La orden del Fénix</title>
+    <title>La Orden del Fénix</title>
     <link rel="shortcut icon" href="./assets/img/logo-cllaordendelfenix.jpeg">
     <style>
 
         html{
-            min-height: 100%;
-            background-image: url(./assets/img/fire.jpeg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center center;
-                    }
-        h1 {
+            background-image: linear-gradient(to bottom, #000000, #421d22, #81352f, #bc582d, #eb8612); 
+            height: 100vh;
+            width: auto;
+            display: flex;
+            align-items: baseline;
+            justify-content: center;
+            overflow: hidden;
+            
+        }
+        h1, h3 {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             text-align: center;
-            color: black;
-            font-size: 45px;
             font-weight: bold;
-            padding: 10%;
-            -webkit-text-stroke: .2px white;
+            color: azure;
+            -webkit-text-stroke: .2px black;
+            margin-top: 15%;
         }
 
-        @media (min-width: 768px) {
-            h1 {
-                font-size: 80px;
-                padding: 0;
-            }
-
-            img {
-                height: auto;
-                max-width: auto;
-                padding: 0;
-            }
-        }
-
-        img {
+        .imagen{
+            width: 100%;
+            max-width: 400px;
             height: auto;
-            max-width: 100%;
-            padding-top: 10%;
+            justify-content: center;
+            padding-left: 8%;
         }
 
-        body {
-            align-items: center;
-
+        .titulo{
+            align-items: flex-start;
+            width: 100%;
+            max-width: 400px;
+            height: auto;
         }
+
     </style>
 </head>
 <body>
-    <h1>Club de Lectura: <br>La Orden del Fénix</h1>
-    <a href="./index_main.html">
-        <img class="logo" src='./assets/img/logofenix.PNG'/>
-    </a>
-    
+        <div class="titulo">
+            <h1>INGRESA BAJO TU PROPIO RIESGO</h1>
+              <h3>CLICK EN LA IMAGEN </h3>  
+        </div>
+        <div class="imagen">
+            <a href="./index_main.html" >
+                <img class="logo" src='./assets/img/logofenix.PNG'width="300"/>
+            </a>
+    </div>
 </body>
 </html>
