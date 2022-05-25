@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+  z-index: 1;
+}
+
+body {
+
+  background-image: linear-gradient(to top, #dc2f02, #de3901, #e14301, #e34b01, #e55302, #e75b01, #e96201, #eb6902, #ed7201, #f07b01, #f28303, #f48c06);
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  animation: move 1s linear infinite forwards;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body::before {
+  content: "";
+  position: fixed;
+  height: 200px;
+  width: 200px;
+  background: linear-gradient(to bottom, #f48c06, #f18102, #ef7501, #eb6902, #e85d04);
+  filter: blur(140px);
+}
+body::after {
+  content: "";
+  position: fixed;
+  top: 200px;
+  left: 250px;
+  height: 200px;
+  width: 200px;
+  background: linear-gradient(to bottom, #f48c06, #f18102, #ef7501, #eb6902, #e85d04);
+  filter: blur(140px);
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+:root {
+  --color-pri: rgb(33, 145, 209);
+  --color-pri-light: rgba(6, 53, 207, 0.445);
+  --color-sec: rgb(17, 103, 233);
+  --color-sec-light: rgba(1, 1, 2, 0.506);
+
+  --pc-width: 75%;
+  --tab-width: 90%;
+  --phone-width: 100%;
+}
+
+.container {
+  border-radius: 10px;
+  width: var(--pc-width);
+  color: var(--text-pri);
+  padding: 10px 40px;
+  margin: 5px auto;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: var(--phone-width);
+  }
+}
