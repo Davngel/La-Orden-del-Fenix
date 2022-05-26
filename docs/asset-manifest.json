@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.69fccf93.css",
-    "main.js": "/static/js/main.bcd235cb.js",
+    "main.js": "/static/js/main.e515a52d.js",
     "static/media/yulma.png": "/static/media/yulma.9fddeb1bf4176945dc45.png",
     "static/media/micari.png": "/static/media/micari.dcaf2c18fb3f3e06f8e1.png",
     "static/media/logofenix.PNG": "/static/media/logofenix.e54630cd1d1c0543f35d.PNG",
     "static/media/halloween.jpg": "/static/media/halloween.80da55dab7202d8e6d44.jpg",
     "static/media/reto_no_lectura.png": "/static/media/reto_no_lectura.0e3c1f85dbf6a76abaa3.png",
+    "static/media/teteralalala.PNG": "/static/media/teteralalala.8369079accb74471a0bb.PNG",
     "static/media/llb.jpg": "/static/media/llb.32d6caa2a10b320ce350.jpg",
     "static/media/foto-club.jpg": "/static/media/foto-club.def8d932f362b4e2dcea.jpg",
     "static/media/Fan_Grl.jpg": "/static/media/Fan_Grl.e76e3282742c715bff92.jpg",
@@ -17,10 +18,10 @@
     "static/media/lectomaniatica.jpg": "/static/media/lectomaniatica.c5703bb1d9efd2bae423.jpg",
     "index.html": "/index.html",
     "main.69fccf93.css.map": "/static/css/main.69fccf93.css.map",
-    "main.bcd235cb.js.map": "/static/js/main.bcd235cb.js.map"
+    "main.e515a52d.js.map": "/static/js/main.e515a52d.js.map"
   },
   "entrypoints": [
     "static/css/main.69fccf93.css",
-    "static/js/main.bcd235cb.js"
+    "static/js/main.e515a52d.js"
   ]
 }

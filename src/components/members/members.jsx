@@ -7,6 +7,7 @@ import fngirl from "../props/Fan_Grl.jpg"
 import grace from "../props/Grace_Queen.jpg"
 import micari from "../props/micari.png"
 import umbra from "../props/Umbra.jpg"
+import teteralalala from "../props/teteralalala.PNG"
 
 const Members = () => {
   return (
@@ -14,12 +15,12 @@ const Members = () => {
       <h1 className="member-txt">Recomendaciones</h1>
 
       <div className="member member-1">
-        <a href="#"><img class ="member-img" alt="clowplace" loading="lazy"/></a>
+        <a href="https://teteralalala.com/"><img class ="member-img" src={teteralalala} alt="teteralalala" loading="lazy"/></a>
         <div className="member-info">
           <h1 className="name">Teteralalala</h1>
-          <h3 className="position"></h3>
+          <h3 className="position">Booktuber</h3>
           <h4 className="about">
-          ...
+          Mi nombre es Tere, pero en internet me conocen como "Tetera".
           </h4>
         </div>
       </div>
