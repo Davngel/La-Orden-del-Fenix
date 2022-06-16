@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.69fccf93.css",
-    "main.js": "/static/js/main.e515a52d.js",
+    "main.js": "/static/js/main.ecfa827a.js",
     "static/media/yulma.png": "/static/media/yulma.9fddeb1bf4176945dc45.png",
     "static/media/micari.png": "/static/media/micari.dcaf2c18fb3f3e06f8e1.png",
     "static/media/logofenix.PNG": "/static/media/logofenix.e54630cd1d1c0543f35d.PNG",
@@ -18,10 +18,10 @@
     "static/media/lectomaniatica.jpg": "/static/media/lectomaniatica.c5703bb1d9efd2bae423.jpg",
     "index.html": "/index.html",
     "main.69fccf93.css.map": "/static/css/main.69fccf93.css.map",
-    "main.e515a52d.js.map": "/static/js/main.e515a52d.js.map"
+    "main.ecfa827a.js.map": "/static/js/main.ecfa827a.js.map"
   },
   "entrypoints": [
     "static/css/main.69fccf93.css",
-    "static/js/main.e515a52d.js"
+    "static/js/main.ecfa827a.js"
   ]
 }

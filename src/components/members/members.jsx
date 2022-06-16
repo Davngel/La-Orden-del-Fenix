@@ -31,7 +31,7 @@ const Members = () => {
           <h1 className="name">Clowplace</h1>
           <h3 className="position">Mangas y libros de romántica</h3>
           <h4 className="about">
-          Soy un excentrico hombre gay sisgenero. que lo unico extraordinario ha sido tratar de salir adelante y ser feliz como todo mundo. Amante de los libros de novela romántica y el manga. Capaz de dar el corazon y brindar mi amistad a quien desee que sea su amigo.
+          Soy un excéntrico hombre gay sisgénero. que lo único extraordinario ha sido tratar de salir adelante y ser feliz como todo mundo. Amante de los libros de novela romántica y el manga. Capaz de dar el corazón y brindar mi amistad a quien desee que sea su amigo.
           </h4>
         </div>
       </div>
@@ -108,7 +108,7 @@ const Members = () => {
           <h1 className="name">Jaz / Umbra</h1>
           <h3 className="position">Escritura, Videojuegos, covers, doblaje, reseñas, lectura, oc cosplay, random</h3>
           <h4 className="about">
-          Me gusta el anime, la música variada menos ranchera, color favorito azul rey y negro, me gusta el rolplay escrito, pelis favoritas: el rey león, el libro de la selva, fragmentado y el laberinto del fauno, amo el cosplay, me gusta leer, lectura infantil y juvenil, fantasia y un poco de misterio y sobrenatural, banda favorita actual: Celtian y mago de oz :3
+          Me gusta el anime, la música variada menos ranchera, color favorito azul rey y negro, me gusta el rolplay escrito. Pelis favoritas: el rey león, el libro de la selva, fragmentado y el laberinto del fauno. Amo el cosplay, me gusta leer lectura infantil y juvenil, fantasía y un poco de misterio y sobrenatural. Banda favorita actual: Celtian y mago de oz :3
           </h4>
         </div>
       </div>
